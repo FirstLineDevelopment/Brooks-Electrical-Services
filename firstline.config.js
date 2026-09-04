@@ -6,8 +6,8 @@ export default {
     {
       path: "/",
       source: "index.html",
-      titlePattern: "Client Site",
-      anchors: ["services", "process", "contact"]
+      titlePattern: "Brooks Electrical Services",
+      anchors: ["services", "about", "areas", "reviews", "process", "contact"]
     }
   ],
   assets: {
