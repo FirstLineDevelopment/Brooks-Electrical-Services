@@ -6,7 +6,7 @@ export default {
     {
       path: "/",
       source: "index.html",
-      titlePattern: "Brooks Electrical Services",
+      titlePattern: "Brock Electrical Services",
       anchors: ["services", "about", "areas", "reviews", "process", "contact"]
     }
   ],

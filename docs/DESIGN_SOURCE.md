@@ -100,10 +100,11 @@ Material UX Pilot deviations are allowed only when needed for:
 
 | Area | UX Pilot intent | Implemented difference | Reason | Approved/needs review |
 | --- | --- | --- | --- | --- |
-| Credentials/trust bar | Licensed & Insured, Emergency Service, BBB Accredited, 5-Star Rated | Fully qualified team, installations & repairs, 43 Yell reviews, NICEIC listed | Factual accuracy; no verified BBB or emergency-service proof for target profile | needs review |
-| Business details | Generic local metro placeholders, `[Primary City]`, `(555) 123-4567` | Stockbridge/Chilbolton address, Hampshire service area, 01264 860068, Mon-Fri 08:00-17:30 | Verified from public directory research | needs review |
-| About/person card | Marcus Brooks, Master Electrician portrait | Review/archive quote card with no named staff claim | No verified Marcus Brooks/person ownership source | needs review |
-| Reviews | Google reviews placeholder and invented customer names | Yell/Checkatrade-sourced review excerpts and listing links | Avoid invented proof; preserve public-page confidence while documenting source internally | needs review |
+| Business name | Brooks Electrical Services | Brock Electrical Services | User-supplied Facebook and Google references identify the Rochester, NH target as "Brock" | needs review |
+| Credentials/trust bar | Licensed & Insured, Emergency Service, BBB Accredited, 5-Star Rated | Rochester based, repairs & installs, Facebook presence, Google map listing | Factual accuracy; no verified BBB, emergency-service, or license/insurance wording in current references | needs review |
+| Business details | Generic local metro placeholders, `[Primary City]`, `(555) 123-4567` | Rochester, NH area; 603-834-4243; Google Maps search reference; 22 Rochester Ave. from public directory data | Corrected client research from user references and matching NH directory result | needs review |
+| About/person card | Marcus Brooks, Master Electrician portrait | FirstLine review note/testimonial placeholder with no named staff claim | No verified owner/staff/testimonial source yet | needs review |
+| Reviews | Google reviews placeholder and invented customer names | Local references panel linking Facebook/Google and noting directory data | Avoid invented review proof; preserve profile-link role until real testimonials are approved | needs review |
 | Imagery | UX Pilot generated electrical concept images | Retained generated concept images, documented as replacement recommended | No client-provided or permission-cleared authentic imagery available | needs review |
 
 ## Design Fidelity QA
@@ -129,6 +130,6 @@ Compare the UX Pilot design/reference against the FirstLine implementation for l
 
 ## Unresolved Visual Questions
 
-- Confirm correct legal/trading entity before launch due to public winding-up notice for the likely UK company.
+- Confirm exact legal/trading entity, spelling, license/registration wording, and business status before launch. The project folder/export say Brooks, while the supplied references say Brock Electrical Services in Rochester, NH.
 - Confirm whether UX Pilot generated concept imagery is acceptable for owner review only or should be replaced with client-provided assets immediately.
 - Confirm logo, license/registration wording, form destination, domain, analytics, and privacy requirements.

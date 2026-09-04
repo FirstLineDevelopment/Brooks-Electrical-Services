@@ -5,15 +5,15 @@ FirstLine-System-Version: 2.3
 ## Client
 
 - Project folder: Brooks-Electrical-Services
-- Name: Brooks Electrical Services
+- Name: Brock Electrical Services
 - Business type: Electrical Contractor
 - Primary language: English
 - Primary audience:
-  Homeowners, landlords, and small commercial/industrial property managers in the Stockbridge, Winchester, Andover, and wider Hampshire area.
+  Homeowners and small commercial property owners/managers in Rochester, New Hampshire and nearby Seacoast/Strafford County communities.
 - Primary conversion action:
-  Phone call to the listed office number.
+  Phone call to the listed Rochester number.
 - Secondary conversion actions:
-  Demo quote request form; map/directions action; review-listing click.
+  Demo quote request form; Google Maps lookup; Facebook profile click.
 
 ## Architecture
 
@@ -28,46 +28,46 @@ FirstLine-System-Version: 2.3
 ## Research
 
 - Existing website/web presence:
-  Public sources identify `www.brookselectricalservices.co.uk` as the business website. Source access/content still needs owner confirmation. Third-party profiles are stronger current research sources for this local build.
+  User-supplied references identify Brock Electrical Services via Facebook and Google Maps search for Rochester, NH. No standalone official website has been confirmed.
 - Business research summary:
-  Most plausible target is Brooks Electrical Services Ltd of 7b Stonefield Park, Martins Lane, Chilbolton, Stockbridge SO20 6BL. Yell lists phone 01264 860068, Mon-Fri 08:00-17:30, 5.0 from 43 ratings, services across domestic, commercial, and industrial electrical work, and credentials including Constructionline and NICEIC. Yell states service in Winchester, Andover, and throughout Hampshire since 1983. Checkatrade preserves 146 older reviews but says there are no new reviews in the last 12 months and that jobs cannot be requested through Checkatrade. The Gazette published a voluntary winding-up notice for Brooks Electrical Services Ltd on 3 April 2025; this is a launch blocker until the client confirms the correct legal entity and trading status.
+  Corrected target is Brock Electrical Services / Brock Electrical Services LLC in Rochester, NH. User supplied Facebook and Google Maps references. Additional public NH directory data lists BROCK ELECTRICAL SERVICES LLC at 22 Rochester Ave., Rochester, NH 03867 with phone 603-834-4243 and email redacted by the search result. The same directory result says "Not In Good Standing"; this must be owner-confirmed before launch and should not be surfaced on public pages.
 - Visual sources searched:
-  UX Pilot export; Yell profile; Checkatrade profile; Gazette notice; general search results for same-name electrical businesses.
+  UX Pilot export; user-supplied Facebook reference; user-supplied Google Maps search reference; public NH company directory search result.
 - Official/client-controlled visual sources:
-  No confirmed client-provided production assets in repo. Yell references an official website and Facebook/Google links, but permission for asset reuse is not established.
+  Facebook page may be business-controlled, but media reuse permission is not established from the current accessible result.
 - Third-party public visual sources:
-  Yell listing photos/logo references; Checkatrade profile imagery; public directory records.
+  Google Maps listing/search; NH company directory result.
 - Logo/branding discovered:
-  Yell references a logo image, but it has not been downloaded or approved. Production implementation uses a generated/simple bolt mark as a placeholder.
+  No approved logo file in repo. Production implementation uses a simple generated bolt mark as a placeholder.
 - Real business imagery discovered:
-  Directory thumbnails/photos appear on Yell and Checkatrade, but rights are unresolved and images were not adopted into production.
+  No production-approved authentic image files available in repo.
 - Strongest authentic assets:
-  Yell business listing facts, public service list, address, phone, hours, ratings, and review snippets.
+  User-supplied Facebook/Google references, Rochester location, NH phone number, and business-name correction.
 - Weak/unusable authentic assets:
-  Third-party directory images are useful for reference only until permission/ownership is confirmed.
+  Any public profile imagery remains reference-only until owner permission is confirmed.
 - Source/provenance uncertainties:
-  Business identity collision with multiple Brooks electrical companies; possible official website availability; Gazette winding-up notice; asset rights; current trading status.
+  Exact legal name, current good-standing/license status, service radius, approved service list, hours, testimonials, logo, and image permissions.
 - Client asset requests that would improve production:
-  Current logo, branded van/uniform/jobsite photography, verified testimonials, legal trading name, license/registration details, live form destination, approved domain, and analytics preference.
+  Current logo, branded truck/uniform/jobsite photos, verified testimonials, NH electrician license/registration wording, exact service area, business hours, domain, and live form destination.
 - Asset contact sheet/review artifact:
   `qa-assets/asset-contact-sheet.html`
 - Existing-site visual audit:
   - KEEP:
-    Dark professional positioning and technical electrical imagery when consistent with approved UX Pilot.
+    UX Pilot's dark technical electrical tone and strong first impression.
   - IMPROVE:
-    Replace placeholders, unsupported US-centric claims, and generic copy with verified local Hampshire/service facts.
+    Replace the mistaken UK business facts with Rochester/NH-specific references and avoid unsupported credential/review claims.
   - REMOVE:
-    Unsupported "Marcus Brooks", BBB, 5-star Google, 24/7 emergency, and generic metro-area placeholders.
+    UK address, Hampshire service area, Yell/Checkatrade proof, NICEIC/Constructionline, 01264 phone, landlord certificate language, and invented reviews.
   - ADD:
-    Stockbridge/Chilbolton address, office phone, Mon-Fri listed hours, NICEIC/Constructionline references, Hampshire service area, and demo form status.
+    Brock spelling, Rochester NH location, 603 phone number, Facebook/Google references, and owner-confirmation blockers.
 - Competitive visual benchmark:
-  Similar local electricians tend to use bright service grids, badges, and generic van/work photos. The approved dark technical bento direction differentiates Brooks while still fitting electrical work.
+  Local electrician sites commonly rely on light service cards, badges, and stock trade photography. The UX Pilot dark technical system remains distinctive for a Rochester contractor.
 - Industry visual expectations:
-  Clear phone CTA, trust credentials, safety language, service specificity, reviews, geographic coverage, and easy quote path.
+  Clear phone CTA, service categories, local area, safety-first language, proof/profile links, and simple quote path.
 - Differentiation opportunity:
-  Premium dark technical system with precise diagnostics and proof-led content rather than a generic handyman layout.
+  A polished electrical-specific bento layout that feels more premium than a generic home-services template.
 - UX strategy:
-  Lead with credibility and immediate call action, then service fit, symptom-based diagnostics, local proof, reviews, and a demo quote form.
+  Lead with Rochester-local positioning and direct call action, then service fit, symptom-based diagnostics, local references, and a demo quote form.
 
 ## Visual Direction
 
@@ -76,19 +76,19 @@ FirstLine-System-Version: 2.3
 - UX Pilot export tracked in `docs/DESIGN_SOURCE.md`: yes/no
   yes
 - Overall visual concept:
-  Dark, modern, safety-forward electrical contractor site with a floating pill header, gold energy accent, bento service grid, diagnostic split bands, review proof, and practical lead form.
+  Dark, modern, safety-forward electrical contractor site with a floating pill header, gold energy accent, bento service grid, diagnostic split bands, local-reference panel, and practical lead form.
 - Emotional impression:
   Professional, capable, technical, local, responsive.
 - Brand personality:
   Dependable, precise, plain-spoken, safety-led.
 - Existing brand signals to preserve:
-  Business name, electrical trade category, local contractor trust cues.
+  Brock business name, electrical trade category, Rochester/NH locality.
 - Brand/source materials that must shape the design:
-  UX Pilot export; public business listing facts; directory review language; electrical safety/inspection service mix.
+  UX Pilot export; user-supplied Facebook and Google Maps references; Rochester/NH directory data.
 - Authentic asset inventory reviewed: yes/no
   yes
 - What authentic visual material can this design be built around?
-  Verified facts and reviews for now; production should be upgraded with client-owned jobsite, van, logo, or team imagery.
+  Verified local identity/contact references for now; production should be upgraded with client-owned logo and jobsite imagery.
 - Color strategy and rationale:
   Preserve UX Pilot deep ink/surface palette with gold electrical accent for power/safety/visibility.
 - Typography strategy and rationale:
@@ -104,13 +104,13 @@ FirstLine-System-Version: 2.3
 - Layout grammar:
   Floating capsule nav, dark full-page background, large rounded image windows, compact credential strip, asymmetrical bento services, alternating diagnostic rows, timeline process, and proof-led CTA footer.
 - Why this section sequence fits this client:
-  It moves from trust and urgent service fit to concrete symptoms, qualifications, local coverage, third-party proof, and contact.
+  It moves from local trust and urgent service fit to concrete symptoms, service categories, local proof/profile links, and contact.
 - Visible differences from recent similar FirstLine builds:
   Dark technical composition, bento service system, problem-diagnosis section, and map-cover proof are more specific than a standard light contractor card stack.
 - Client-specific modules:
-  Local service area proof, NICEIC/Constructionline credential cues, review excerpts, landlord certificate/service testing fields.
+  Rochester service-area proof, Facebook/Google reference panel, and demo quote form.
 - Clone-risk comparison:
-  Reduced by service mix, Stockbridge/Hampshire local proof, rating/source links, and electrical diagnostic content; still needs authentic imagery for final brand specificity.
+  Reduced by Rochester/NH local proof and electrical diagnostic content; still needs authentic imagery for final brand specificity.
 - Page composition strategy:
   Single-page architecture with direct anchor nav and repeated phone/quote CTAs.
 - Section rhythm strategy:
@@ -124,9 +124,9 @@ FirstLine-System-Version: 2.3
 - Mobile visual strategy:
   Collapse into single-column sections, preserve first-screen action clarity, avoid horizontal overflow, and keep mobile nav full-screen below header.
 - Brand specificity test answer:
-  Pass for local electrical contractor category and Brooks public details; final pass depends on approved logo and authentic imagery.
+  Provisional pass for local electrical contractor category and Brock/Rochester references; final pass depends on approved logo, imagery, testimonials, and license/status confirmation.
 - Known visual compromises:
-  Generated concept imagery remains in production markup for local review; legal/trading status needs confirmation.
+  Generated concept imagery remains in production markup for local review; business status, license wording, service radius, and hours need owner confirmation.
 
 ## Brand
 
@@ -146,11 +146,11 @@ FirstLine-System-Version: 2.3
 ## Content
 
 - Required pages/sections:
-  One-page site: hero, trust strip, services, diagnostics, why choose/about, process, sectors, service area, reviews, contact, footer.
+  One-page site: hero, trust strip, services, diagnostics, why choose/about, process, sectors, service area, local references, contact, footer.
 - Spanish or accented content: yes/no
   no
 - Legal pages required: yes/no
-  unknown; likely no for local brochure prelaunch, but privacy/cookie policy may be needed when analytics/live forms are configured.
+  unknown; likely privacy/cookie policy if analytics or live forms are configured.
 - Newsletter/email capture: yes/no
   no
 - Locations/map needs: yes/no
@@ -170,7 +170,7 @@ FirstLine-System-Version: 2.3
 ## Launch
 
 - Domain:
-  `www.brookselectricalservices.co.uk` appears in public listings; owner confirmation required.
+  not confirmed
 - Hosting:
   not configured
 - Analytics:
@@ -183,37 +183,38 @@ FirstLine-System-Version: 2.3
 ## Visual QA
 
 - Screenshot set reviewed:
-  pending this implementation pass
+  pending corrected-client recapture
 - Engineering QA result:
-  pending
+  pending corrected-client recapture
 - Design Fidelity QA required: yes/no
   yes
 - Design Fidelity QA result: pass/fail/not applicable
-  pending
+  pending corrected-client recapture
 - Design-source deviations documented in `docs/DESIGN_SOURCE.md`: yes/no
   yes
 - Visual QA result: pass/fail
-  pending
+  pending corrected-client recapture
 - Authentic imagery usage review:
   complete; no production-approved authentic imagery available
 - Visual score summary:
-  pending after screenshots
+  pending corrected-client recapture
 - Weakest dimensions:
-  likely authentic imagery and legal/business-status certainty
+  authentic imagery, proof/testimonials, business/license/status certainty
 - Refinement pass notes:
-  pending
+  pending corrected-client recapture
 - Commercial readiness result:
-  pending; legal/trading-status confirmation required before launch
+  pending; entity/status/license confirmation required before launch
 - Actual-business specificity result:
-  provisional pass based on researched facts; needs authentic assets
+  provisional pass based on corrected references; needs authentic assets
 - Structural uniqueness result:
   pass against standard contractor starter layout
 - Existing-site comparison result for redesigns:
-  no accessible confirmed existing site content reviewed
+  no standalone official existing site confirmed
 
 ## Client-Specific Overrides
 
 Document any approved exception to FirstLine global standards here.
 
 - No client-owned imagery is present yet; UX Pilot generated imagery is retained for local review as concept/demo imagery only.
-- Possible legal/trading-status conflict discovered in public records requires owner confirmation before launch.
+- The project folder and UX Pilot export use "Brooks" naming, but the supplied business references point to "Brock Electrical Services" in Rochester, NH.
+- Public directory status/licensing details require owner confirmation before launch.
