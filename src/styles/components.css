@@ -920,34 +920,48 @@ address {
     border-right: 0;
     border-left: 0;
     border-radius: 0;
-    padding: 12px 20px;
+    padding: 8px 16px;
     background: rgba(19, 28, 46, 0.95);
     box-shadow: var(--shadow-soft);
   }
 
+  .brand {
+    gap: 8px;
+  }
+
+  .brand-mark {
+    width: 24px;
+    height: 24px;
+  }
+
+  .brand-mark svg {
+    width: 19px;
+    height: 19px;
+  }
+
   .brand span:last-child {
-    max-width: min(48vw, 220px);
-    font-size: 0.94rem;
+    max-width: min(50vw, 220px);
+    font-size: 0.86rem;
   }
 
   .mobile-header-call {
-    min-height: 38px;
+    min-height: 34px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    padding: 8px 14px;
+    padding: 7px 13px;
     border-radius: 999px;
     background: var(--color-gold);
     color: var(--color-ink);
-    font-size: 0.72rem;
+    font-size: 0.68rem;
     font-weight: 900;
     text-decoration: none;
     text-transform: uppercase;
   }
 
   .menu-button {
-    width: 48px;
-    height: 48px;
+    width: 44px;
+    height: 44px;
     display: inline-flex;
     flex: 0 0 auto;
     flex-direction: column;
@@ -959,7 +973,7 @@ address {
   }
 
   .menu-button span {
-    width: 20px;
+    width: 18px;
     height: 2px;
     display: block;
     margin: 0 auto;
