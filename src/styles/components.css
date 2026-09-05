@@ -1076,6 +1076,11 @@ address {
     font-size: 0.7rem;
   }
 
+  #diagnostics-title span {
+    display: block;
+    white-space: nowrap;
+  }
+
   .hero-actions .button {
     width: 100%;
   }
