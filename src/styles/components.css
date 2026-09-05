@@ -501,8 +501,15 @@ main {
   border-radius: var(--radius);
 }
 
+.reason-card-header {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
 .reason-icon {
   font-size: 1.8rem;
+  line-height: 1;
 }
 
 .local-proof {
