@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Request a Quote | Brock Electrical Services</title>
+    <meta name="description" content="Request an electrical service quote from Brock Electrical Services in Rochester, New Hampshire." />
+    <link rel="canonical" href="https://firstlinedevelopment.github.io/Brooks-Electrical-Services/contact.html" />
+    <meta property="og:title" content="Request a Quote | Brock Electrical Services" />
+    <meta property="og:description" content="Electrical repairs, installations, lighting, outlets, wiring, and panel work around Rochester, New Hampshire." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://firstlinedevelopment.github.io/Brooks-Electrical-Services/contact.html" />
+    <meta property="og:image" content="https://firstlinedevelopment.github.io/Brooks-Electrical-Services/assets/Main.jpg" />
+    <meta property="og:image:alt" content="Electrician working safely on a Rochester home electrical service" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-VFGD2XJB5M"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-VFGD2XJB5M");
+    </script>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230a0e1a'/%3E%3Cpath d='M36 4 13 37h15l-2 23 25-36H35l1-20Z' fill='%23f2a900'/%3E%3C/svg%3E" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800&family=Inter:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/src/styles/tokens.css" />
+    <link rel="stylesheet" href="/src/styles/components.css" />
+  </head>
+  <body>
+    <header class="site-header" data-site-header>
+      <div class="nav-shell">
+        <a class="brand" href="index.html#top" aria-label="Brock Electrical Services home">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 24 24" role="img" focusable="false">
+              <path d="M13.5 2 4.7 13.1h6.1L9.9 22l9.4-13.3h-6.2L13.5 2Z" />
+            </svg>
+          </span>
+          <span>Brock Electrical Services</span>
+        </a>
+        <a class="mobile-header-call" href="tel:+16038344243">Call</a>
+        <button class="menu-button" type="button" data-mobile-nav-toggle aria-label="Open menu" aria-expanded="false" aria-controls="site-nav">
+          <span></span><span></span><span></span>
+        </button>
+        <nav id="site-nav" class="site-nav" data-mobile-nav aria-label="Primary navigation">
+          <a href="index.html#top">Home</a>
+          <a href="index.html#services">Services</a>
+          <a href="index.html#about">About</a>
+          <a href="index.html#areas">Service Area</a>
+          <a href="contact.html" aria-current="page">Contact</a>
+        </nav>
+        <div class="nav-actions" aria-label="Primary contact actions">
+          <a class="button button-gold button-small" href="tel:+16038344243">Call now</a>
+          <a class="button button-ghost button-small" href="contact.html">Request a quote</a>
+        </div>
+      </div>
+    </header>
+
+    <main id="top">
+      <section id="contact" class="section-pad contact-section contact-page-section">
+        <div class="grid-container contact-grid">
+          <div class="quote-panel">
+            <p class="eyebrow">Request a quote</p>
+            <h1>Let's get your project started.</h1>
+            <form class="quote-form" data-firstline-form data-form-mode="demo" novalidate>
+              <div class="form-grid">
+                <label>
+                  <span>Name</span>
+                  <input name="name" autocomplete="name" required />
+                </label>
+                <label>
+                  <span>Phone</span>
+                  <input name="phone" type="tel" autocomplete="tel" required />
+                </label>
+                <label>
+                  <span>Email</span>
+                  <input name="email" type="email" autocomplete="email" required />
+                </label>
+                <label>
+                  <span>Service needed</span>
+                  <select name="service" required>
+                    <option value="">Select a service</option>
+                    <option>Electrical repair</option>
+                    <option>Installation</option>
+                    <option>Inspection and testing</option>
+                    <option>Wiring or outlet work</option>
+                    <option>Commercial electrical work</option>
+                    <option>EV charger installation</option>
+                  </select>
+                </label>
+              </div>
+              <label>
+                <span>City or postcode</span>
+                <input name="location" autocomplete="postal-code" />
+              </label>
+              <label>
+                <span>Project details</span>
+                <textarea name="message" rows="4"></textarea>
+              </label>
+              <div class="upload-box" aria-label="Photo upload placeholder">
+                <span aria-hidden="true">↑</span>
+                <strong>Upload photo</strong>
+                <small>Demo UI only. File delivery is not connected.</small>
+              </div>
+              <button class="button button-gold form-submit" type="submit">Submit request</button>
+              <p class="fl-status" role="status" aria-live="polite"></p>
+            </form>
+          </div>
+          <aside class="contact-card">
+            <h2>Prefer to talk?</h2>
+            <p>Call the listed office number for immediate scheduling questions or to describe a job.</p>
+            <a class="phone-card" href="tel:+16038344243">
+              <span aria-hidden="true">☎</span>
+              <span><small>Call now</small><strong>603-834-4243</strong></span>
+            </a>
+            <address>
+              22 Rochester Ave.<br />
+              Rochester, NH 03867
+            </address>
+          </aside>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="grid-container footer-grid">
+        <div>
+          <a class="footer-brand" href="index.html#top">Brock Electrical</a>
+          <p>Electrical services for residential and small commercial clients around Rochester, New Hampshire.</p>
+        </div>
+        <nav aria-label="Footer quick links">
+          <h2>Quick links</h2>
+          <a href="index.html#services">Services</a>
+          <a href="index.html#about">About</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+        <nav aria-label="Footer services">
+          <h2>Services</h2>
+          <a href="index.html#services">Electrical repairs</a>
+          <a href="index.html#services">Consumer units</a>
+          <a href="index.html#services">Lighting</a>
+          <a href="index.html#services">Testing</a>
+        </nav>
+        <div>
+          <h2>Contact</h2>
+          <p><a href="tel:+16038344243">603-834-4243</a></p>
+          <p>Hours to be confirmed</p>
+          <p>Rochester, NH</p>
+        </div>
+      </div>
+      <div class="grid-container footer-bottom">
+        <p>&copy; <span data-year></span> Brock Electrical Services. All rights reserved.</p>
+        <p>Electrical contractor</p>
+        <p data-firstline-credit></p>
+      </div>
+    </footer>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

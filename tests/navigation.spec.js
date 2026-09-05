@@ -24,7 +24,7 @@ test.describe("FirstLine navigation standards", () => {
     await expect(toggle).toHaveAttribute("aria-expanded", "true");
     await expect(nav).toHaveClass(/is-open/);
 
-    await nav.getByRole("link", { name: "Contact" }).click();
+    await nav.getByRole("link", { name: "Services" }).click();
     await expect(toggle).toHaveAttribute("aria-expanded", "false");
     await expect(nav).not.toHaveClass(/is-open/);
   });

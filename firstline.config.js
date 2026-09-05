@@ -1,13 +1,19 @@
 export default {
   systemVersion: "2.3",
-  architecture: "single-page",
+  architecture: "multi-page",
   defaultFormMode: "demo",
   pages: [
     {
       path: "/",
       source: "index.html",
       titlePattern: "Brock Electrical Services",
-      anchors: ["services", "about", "areas", "reviews", "process", "contact"]
+      anchors: ["services", "about", "areas", "reviews", "process"]
+    },
+    {
+      path: "/contact.html",
+      source: "contact.html",
+      titlePattern: "Request a Quote",
+      anchors: ["contact"]
     }
   ],
   assets: {

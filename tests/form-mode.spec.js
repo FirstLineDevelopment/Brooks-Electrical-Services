@@ -1,7 +1,7 @@
 import { expect, test } from "@playwright/test";
 
 test("demo forms clearly do not submit to a live business", async ({ page }) => {
-  await page.goto("/");
+  await page.goto("/contact.html");
   const form = page.locator("[data-firstline-form]").first();
   await expect(form).toHaveAttribute("data-form-mode", "demo");
 
