@@ -1099,7 +1099,7 @@ address {
     min-height: 0;
     display: flex;
     align-items: center;
-    gap: 14px;
+    gap: 16px;
     padding: 20px;
     border-radius: 16px;
   }
@@ -1128,10 +1128,10 @@ address {
 
   .service-card .service-image,
   .service-card .tile-image {
-    width: 58px;
-    height: 58px;
-    min-width: 58px;
-    min-height: 58px;
+    width: 112px;
+    height: 112px;
+    min-width: 112px;
+    min-height: 112px;
     order: -1;
     border-radius: 12px;
     margin: 0;
@@ -1284,10 +1284,10 @@ address {
 
   .service-card .service-image,
   .service-card .tile-image {
-    width: 54px;
-    height: 54px;
-    min-width: 54px;
-    min-height: 54px;
+    width: 112px;
+    height: 112px;
+    min-width: 112px;
+    min-height: 112px;
   }
 
   .service-icon {
