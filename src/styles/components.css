@@ -392,7 +392,8 @@ main {
   gap: 14px;
 }
 
-.service-tile-header h3 {
+.service-tile-header h2 {
+  margin-bottom: 0;
   font-size: clamp(1.1rem, 1.45vw, 1.55rem);
 }
 
@@ -1141,7 +1142,7 @@ address {
     min-width: 0;
   }
 
-  .service-tile-header h3 {
+  .service-tile-header h2 {
     font-size: 1.18rem;
     line-height: 1.05;
   }
