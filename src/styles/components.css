@@ -1088,6 +1088,11 @@ address {
     white-space: nowrap;
   }
 
+  .local-proof {
+    grid-template-columns: auto minmax(0, 1fr);
+    column-gap: 14px;
+  }
+
   .hero-actions .button {
     width: 100%;
   }
