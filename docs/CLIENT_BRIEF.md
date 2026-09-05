@@ -67,7 +67,7 @@ FirstLine-System-Version: 2.3
 - Differentiation opportunity:
   A polished electrical-specific bento layout that feels more premium than a generic home-services template.
 - UX strategy:
-  Lead with Rochester-local positioning and direct call action, then service fit, symptom-based diagnostics, local references, and a demo quote form.
+  Lead with Rochester-local positioning and direct call action, then service fit, symptom-based diagnostics, practical trust/service benefits, and a demo quote form.
 
 ## Visual Direction
 
@@ -146,7 +146,7 @@ FirstLine-System-Version: 2.3
 ## Content
 
 - Required pages/sections:
-  One-page site: hero, trust strip, services, diagnostics, why choose/about, process, sectors, service area, local references, contact, footer.
+  One-page site: hero, trust strip, services, diagnostics, why choose/about, process, sectors, service area, job-readiness proof, contact, footer.
 - Spanish or accented content: yes/no
   no
 - Legal pages required: yes/no
