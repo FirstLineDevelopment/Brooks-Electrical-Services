@@ -101,10 +101,10 @@ Material UX Pilot deviations are allowed only when needed for:
 | Area | UX Pilot intent | Implemented difference | Reason | Approved/needs review |
 | --- | --- | --- | --- | --- |
 | Business name | Brooks Electrical Services | Brock Electrical Services | User-supplied Facebook and Google references identify the Rochester, NH target as "Brock" | needs review |
-| Credentials/trust bar | Licensed & Insured, Emergency Service, BBB Accredited, 5-Star Rated | Rochester based, repairs & installs, Facebook presence, Google map listing | Factual accuracy; no verified BBB, emergency-service, or license/insurance wording in current references | needs review |
+| Credentials/trust bar | Licensed & Insured, Emergency Service, BBB Accredited, 5-Star Rated | Rochester based, repairs & installs, local service, clear scheduling | Factual accuracy and customer-facing clarity; no verified BBB, emergency-service, or license/insurance wording in current references | needs review |
 | Business details | Generic local metro placeholders, `[Primary City]`, `(555) 123-4567` | Rochester, NH area; 603-834-4243; Google Maps search reference; 22 Rochester Ave. from public directory data | Corrected client research from user references and matching NH directory result | needs review |
 | About/person card | Marcus Brooks, Master Electrician portrait | FirstLine review note/testimonial placeholder with no named staff claim | No verified owner/staff/testimonial source yet | needs review |
-| Reviews | Google reviews placeholder and invented customer names | Local references panel linking Facebook/Google and noting directory data | Avoid invented review proof; preserve profile-link role until real testimonials are approved | needs review |
+| Reviews | Google reviews placeholder and invented customer names | Job-readiness panel with practical service promises and a secondary Facebook CTA | Avoid invented review proof; keep public copy customer-facing until real testimonials are approved | needs review |
 | Imagery | UX Pilot generated electrical concept images | Retained generated concept images, documented as replacement recommended | No client-provided or permission-cleared authentic imagery available | needs review |
 
 ## Design Fidelity QA

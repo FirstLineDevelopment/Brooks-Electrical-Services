@@ -13,7 +13,7 @@ FirstLine-System-Version: 2.3
 - Primary conversion action:
   Phone call to the listed Rochester number.
 - Secondary conversion actions:
-  Demo quote request form; Google Maps lookup; Facebook profile click.
+  Demo quote request form; map/directions lookup; Facebook profile click from secondary reference CTA only.
 
 ## Architecture
 
@@ -63,7 +63,7 @@ FirstLine-System-Version: 2.3
 - Competitive visual benchmark:
   Local electrician sites commonly rely on light service cards, badges, and stock trade photography. The UX Pilot dark technical system remains distinctive for a Rochester contractor.
 - Industry visual expectations:
-  Clear phone CTA, service categories, local area, safety-first language, proof/profile links, and simple quote path.
+  Clear phone CTA, service categories, local area, safety-first language, practical proof points, and simple quote path.
 - Differentiation opportunity:
   A polished electrical-specific bento layout that feels more premium than a generic home-services template.
 - UX strategy:
@@ -104,11 +104,11 @@ FirstLine-System-Version: 2.3
 - Layout grammar:
   Floating capsule nav, dark full-page background, large rounded image windows, compact credential strip, asymmetrical bento services, alternating diagnostic rows, timeline process, and proof-led CTA footer.
 - Why this section sequence fits this client:
-  It moves from local trust and urgent service fit to concrete symptoms, service categories, local proof/profile links, and contact.
+  It moves from local trust and urgent service fit to concrete symptoms, service categories, practical job-readiness proof, and contact.
 - Visible differences from recent similar FirstLine builds:
   Dark technical composition, bento service system, problem-diagnosis section, and map-cover proof are more specific than a standard light contractor card stack.
 - Client-specific modules:
-  Rochester service-area proof, Facebook/Google reference panel, and demo quote form.
+  Rochester service-area proof, job-readiness panel, and demo quote form.
 - Clone-risk comparison:
   Reduced by Rochester/NH local proof and electrical diagnostic content; still needs authentic imagery for final brand specificity.
 - Page composition strategy:
