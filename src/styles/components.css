@@ -661,6 +661,10 @@ main {
   gap: 48px;
 }
 
+.about-single {
+  grid-template-columns: minmax(0, 820px);
+}
+
 .quote-card,
 .contact-card {
   padding: 28px;
