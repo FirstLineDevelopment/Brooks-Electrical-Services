@@ -1062,8 +1062,7 @@ address {
 
 @media (max-width: 460px) {
   .why-grid,
-  .review-grid,
-  .footer-grid {
+  .review-grid {
     grid-template-columns: 1fr;
   }
 
@@ -1165,5 +1164,47 @@ address {
   .contact-card,
   .quote-card {
     padding: 22px;
+  }
+
+  .site-footer {
+    padding: 14px 0 10px;
+  }
+
+  .footer-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px 18px;
+    margin-bottom: 10px;
+  }
+
+  .footer-grid > div:first-child {
+    grid-column: 1 / -1;
+  }
+
+  .site-footer h2 {
+    margin-bottom: 4px;
+    font-size: 0.82rem;
+  }
+
+  .site-footer p,
+  .site-footer a {
+    font-size: 0.78rem;
+    line-height: 1.35;
+  }
+
+  .site-footer nav,
+  .site-footer .footer-grid > div {
+    gap: 3px;
+  }
+
+  .footer-bottom {
+    display: grid;
+    grid-template-columns: 1.35fr 0.8fr 1fr;
+    gap: 8px;
+    padding-top: 8px;
+    font-size: 0.65rem;
+  }
+
+  .footer-bottom p {
+    font-size: inherit;
   }
 }
