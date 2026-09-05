@@ -1054,11 +1054,26 @@ address {
 }
 
 @media (max-width: 460px) {
-  .trust-grid,
   .why-grid,
   .review-grid,
   .footer-grid {
     grid-template-columns: 1fr;
+  }
+
+  .trust-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 22px 14px;
+    padding: 24px 0;
+  }
+
+  .trust-grid div {
+    justify-content: flex-start;
+    gap: 9px;
+    text-align: left;
+  }
+
+  .trust-grid strong {
+    font-size: 0.7rem;
   }
 
   .hero-actions .button {
