@@ -1091,6 +1091,25 @@ address {
   .local-proof {
     grid-template-columns: auto minmax(0, 1fr);
     column-gap: 14px;
+    row-gap: 12px;
+  }
+
+  .local-proof > .reason-icon {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .local-proof > div {
+    display: contents;
+  }
+
+  .local-proof h3 {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  .local-proof p {
+    grid-column: 1 / -1;
   }
 
   .hero-actions .button {
