@@ -806,7 +806,7 @@ address {
 }
 
 .site-footer {
-  padding: 56px 0 28px;
+  padding: 34px 0 20px;
   border-top: 1px solid var(--color-line);
   background: var(--color-surface);
 }
@@ -814,12 +814,12 @@ address {
 .footer-grid {
   display: grid;
   grid-template-columns: 1.5fr repeat(3, 1fr);
-  gap: 36px;
-  margin-bottom: 36px;
+  gap: 28px;
+  margin-bottom: 24px;
 }
 
 .site-footer h2 {
-  margin: 0 0 16px;
+  margin: 0 0 10px;
   font-size: 1rem;
 }
 
@@ -827,7 +827,7 @@ address {
 .site-footer .footer-grid > div {
   display: grid;
   align-content: start;
-  gap: 10px;
+  gap: 7px;
 }
 
 .site-footer a {
@@ -844,7 +844,7 @@ address {
   align-items: center;
   justify-content: space-between;
   gap: 16px;
-  padding-top: 24px;
+  padding-top: 16px;
   border-top: 1px solid var(--color-line);
   color: var(--color-muted);
   font-size: 0.8rem;
