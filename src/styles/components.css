@@ -1281,20 +1281,30 @@ address {
 
   .service-card {
     align-items: center;
+    gap: 12px;
+    padding: 18px;
   }
 
   .service-card .service-image,
   .service-card .tile-image {
-    width: 96px;
-    height: 96px;
-    min-width: 96px;
-    min-height: 96px;
+    width: 84px;
+    height: 84px;
+    min-width: 84px;
+    min-height: 84px;
+  }
+
+  .service-tile-header {
+    gap: 10px;
+  }
+
+  .service-tile-header h2 {
+    font-size: 1.05rem;
   }
 
   .service-icon {
-    width: 40px;
-    height: 40px;
-    min-width: 40px;
+    width: 36px;
+    height: 36px;
+    min-width: 36px;
   }
 
   .contact-section h2 {
