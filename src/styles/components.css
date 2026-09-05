@@ -364,6 +364,16 @@ main {
   padding: 32px;
 }
 
+.service-tile-header {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.service-tile-header h3 {
+  font-size: clamp(1.1rem, 1.45vw, 1.55rem);
+}
+
 .service-card p,
 .diagnostic-copy p,
 .reason-card p,
@@ -398,7 +408,12 @@ main {
 }
 
 .service-icon {
+  width: 30px;
+  min-width: 30px;
+  display: inline-flex;
+  justify-content: center;
   font-size: 1.7rem;
+  line-height: 1;
 }
 
 .diagnostic-stack {
