@@ -1120,6 +1120,47 @@ address {
     aspect-ratio: 4 / 5;
   }
 
+  .contact-section h2 {
+    margin-bottom: 18px;
+    font-size: clamp(2.25rem, 11vw, 3rem);
+  }
+
+  .quote-form,
+  .form-grid {
+    gap: 12px;
+  }
+
+  .quote-form label {
+    gap: 5px;
+    font-size: 0.88rem;
+  }
+
+  .quote-form input,
+  .quote-form textarea,
+  .quote-form select {
+    min-height: 46px;
+    padding: 10px 14px;
+  }
+
+  .quote-form textarea {
+    min-height: 96px;
+  }
+
+  .upload-box {
+    min-height: 108px;
+    gap: 4px;
+    padding: 14px;
+  }
+
+  .upload-box span {
+    font-size: 1.55rem;
+  }
+
+  .form-submit {
+    min-height: 46px;
+    padding: 10px 18px;
+  }
+
   .reviews-panel,
   .contact-card,
   .quote-card {
