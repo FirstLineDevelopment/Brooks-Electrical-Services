@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+        window.FontAwesomeConfig = {
+          autoReplaceSvg: 'nest'
+        };
+      </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brooks Electrical Services - Home</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Inter:wght@400;500;600&family=Space+Mono&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        ink: '#0A0E1A',
+                        surface: '#131C2E',
+                        elevated: '#1E2A3E',
+                        elevated2: '#243044',
+                        sharp: '#2E3E56',
+                        muted: '#8E9EB4',
+                        soft: '#C6D0DE',
+                        crisp: '#F1F5F9',
+                        gold: '#F2A900',
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        heading: ['Archivo', 'sans-serif'],
+                        mono: ['Space Mono', 'monospace'],
+                    },
+                    boxShadow: {
+                        soft: 'rgba(0, 0, 0, 0.12) 0px 8px 24px',
+                        jumbo: 'rgba(0, 0, 0, 0.3) 0px 32px 64px -24px',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        h1, h2, h3, .font-heading { font-family: 'Archivo', sans-serif; }
+        .btn-hover-effect { position: relative; overflow: hidden; transition: all 0.3s ease; }
+        .btn-hover-effect:active { transform: scale(0.98); }
+        .grid-container { padding: 0 20px; }
+    </style>
+</head>
+<body class="bg-ink text-soft antialiased overflow-x-hidden">
+
+    <!-- Mobile Sticky Header -->
+    <header class="fixed top-0 left-0 z-50 w-full bg-surface/95 backdrop-blur-md border-b border-sharp px-5 py-4 flex items-center justify-between shadow-soft">
+        <a href="#" class="text-crisp font-bold text-base tracking-tight flex items-center gap-2">
+            <i class="fa-solid fa-bolt-lightning text-gold"></i>
+            Brooks Electrical
+        </a>
+        <div class="flex items-center gap-3">
+            <a href="tel:5551234567" class="bg-gold text-ink p-2 px-4 rounded-full text-xs font-bold btn-hover-effect flex items-center gap-2">
+                <i class="fa-solid fa-phone"></i>
+                CALL
+            </a>
+            <button class="text-crisp text-xl"><i class="fa-solid fa-bars"></i></button>
+        </div>
+    </header>
+
+    <main class="pt-20">
+        <!-- Mobile Hero -->
+        <section class="mb-10 pt-4">
+            <div class="grid-container">
+                <div class="space-y-6">
+                    <span class="font-mono text-[10px] font-bold text-muted uppercase tracking-widest bg-elevated px-2 py-1 rounded">TRUSTED LOCAL CRAFTSMEN</span>
+                    <h1 class="text-4xl font-bold text-crisp leading-tight">
+                        Professional Electrical Services You Can Count On
+                    </h1>
+                    <p class="text-base text-muted">
+                        Licensed electricians delivering safe, reliable solutions for your home or business. Fast, local, and professional.
+                    </p>
+                    <div class="flex flex-col gap-3">
+                        <button class="w-full bg-gold text-ink py-4 rounded-xl font-bold btn-hover-effect text-center">REQUEST A QUOTE</button>
+                        <a href="tel:5551234567" class="w-full border border-sharp text-crisp py-4 rounded-xl font-medium text-center bg-elevated/50">CALL NOW</a>
+                    </div>
+                </div>
+                <div class="mt-10 aspect-square rounded-3xl overflow-hidden shadow-jumbo">
+                    <img class="w-full h-full object-cover" src="https://storage.googleapis.com/uxpilot-auth.appspot.com/gen_7bf94b60ab_c9c4e998f47d988c.png" alt="professional electrician working safely on a clean modern copper breaker panel, close up, warm light" />
+                </div>
+            </div>
+        </section>
+
+        <!-- Trust Bar (Stacked for Mobile) -->
+        <section class="mb-10 bg-surface/50 border-y border-sharp py-6">
+            <div class="grid-container grid grid-cols-2 gap-y-6 gap-x-4">
+                <div class="flex flex-col items-center text-center gap-2">
+                    <i class="fa-solid fa-certificate text-gold text-xl"></i>
+                    <span class="text-[10px] font-bold text-crisp uppercase tracking-wider">Licensed & Insured</span>
+                </div>
+                <div class="flex flex-col items-center text-center gap-2">
+                    <i class="fa-solid fa-clock text-gold text-xl"></i>
+                    <span class="text-[10px] font-bold text-crisp uppercase tracking-wider">Emergency Service</span>
+                </div>
+                <div class="flex flex-col items-center text-center gap-2">
+                    <i class="fa-solid fa-check-double text-gold text-xl"></i>
+                    <span class="text-[10px] font-bold text-crisp uppercase tracking-wider">BBB Accredited</span>
+                </div>
+                <div class="flex flex-col items-center text-center gap-2">
+                    <i class="fa-solid fa-star text-gold text-xl"></i>
+                    <span class="text-[10px] font-bold text-crisp uppercase tracking-wider">5-Star Rated</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services -->
+        <section id="services" class="mb-12">
+            <div class="grid-container">
+                <h2 class="text-3xl font-bold text-crisp mb-6">Our Services</h2>
+                <div class="space-y-4">
+                    <div class="bg-elevated rounded-2xl p-6 border border-sharp flex items-center gap-4">
+                        <div class="w-12 h-12 rounded-xl bg-ink flex items-center justify-center text-gold text-xl">
+                            <i class="fa-solid fa-plug"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-lg font-bold text-crisp leading-none">Repairs & Troubleshooting</h3>
+                            <p class="text-xs text-muted mt-1">Faulty wiring, outlets, and circuits.</p>
+                        </div>
+                    </div>
+                    <div class="bg-elevated rounded-2xl p-6 border border-sharp flex items-center gap-4">
+                        <div class="w-12 h-12 rounded-xl bg-ink flex items-center justify-center text-gold text-xl">
+                            <i class="fa-solid fa-car-battery"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-lg font-bold text-crisp leading-none">Panel Upgrades</h3>
+                            <p class="text-xs text-muted mt-1">Safe and code-compliant upgrades.</p>
+                        </div>
+                    </div>
+                    <div class="bg-elevated rounded-2xl p-6 border border-sharp flex items-center gap-4">
+                        <div class="w-12 h-12 rounded-xl bg-ink flex items-center justify-center text-gold text-xl">
+                            <i class="fa-solid fa-lightbulb"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-lg font-bold text-crisp leading-none">Lighting Install</h3>
+                            <p class="text-xs text-muted mt-1">Recessed, outdoor, and smart lighting.</p>
+                        </div>
+                    </div>
+                    <div class="bg-elevated rounded-2xl p-6 border border-sharp flex items-center gap-4">
+                        <div class="w-12 h-12 rounded-xl bg-ink flex items-center justify-center text-gold text-xl">
+                            <i class="fa-solid fa-building"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-lg font-bold text-crisp leading-none">Commercial Services</h3>
+                            <p class="text-xs text-muted mt-1">Lighting retrofits and data cabling.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Start Here -->
+        <section class="mb-12 bg-elevated py-12">
+            <div class="grid-container">
+                <h2 class="text-3xl font-bold text-crisp mb-8">Electrical Problem?</h2>
+                <div class="space-y-10">
+                    <div class="space-y-4">
+                        <div class="aspect-video rounded-2xl overflow-hidden">
+                            <img class="w-full h-full object-cover" src="https://storage.googleapis.com/uxpilot-auth.appspot.com/gen_95deccbe17_4e6b5751550fc170.png" alt="flickering overhead lights in a home hallway, editorial photo" />
+                        </div>
+                        <h3 class="text-xl font-bold text-crisp">Flickering Lights</h3>
+                        <p class="text-sm text-muted">Don't ignore it. It could signal loose wiring or overloaded circuits. We diagnose the root cause fast.</p>
+                        <a href="#contact" class="inline-block text-gold font-medium border-b border-gold/30 pb-1">Get it diagnosed</a>
+                    </div>
+                    <div class="space-y-4">
+                        <div class="aspect-video rounded-2xl overflow-hidden">
+                            <img class="w-full h-full object-cover" src="https://storage.googleapis.com/uxpilot-auth.appspot.com/gen_2a5ff8b22e_c9c9c418354f822a.png" alt="tripped circuit breaker in an open electrical panel, detailed photo" />
+                        </div>
+                        <h3 class="text-xl font-bold text-crisp">Tripping Breakers</h3>
+                        <p class="text-sm text-muted">A warning sign your panel can't handle the load. We upgrade panels so your home runs safely.</p>
+                        <a href="#contact" class="inline-block text-gold font-medium border-b border-gold/30 pb-1">Schedule a visit</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Reviews -->
+        <section class="mb-12">
+            <div class="grid-container">
+                <div class="bg-surface rounded-3xl p-8 border border-sharp text-center">
+                    <div class="flex justify-center text-gold text-2xl mb-4">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <h2 class="text-2xl font-bold text-crisp mb-2">5-Star Local Service</h2>
+                    <p class="text-sm text-muted mb-6">" Marcus explained the issue with our panel and had it fixed the same day. Highly recommend Brooks Electrical! "</p>
+                    <p class="text-xs font-bold text-soft">— [Customer Name Placeholder]</p>
+                    <div class="mt-8 pt-8 border-t border-sharp flex justify-center gap-4">
+                        <div class="text-center">
+                            <p class="text-xl font-bold text-crisp">200+</p>
+                            <p class="text-[10px] uppercase text-muted">Reviews</p>
+                        </div>
+                        <div class="text-center">
+                            <p class="text-xl font-bold text-crisp">10yr</p>
+                            <p class="text-[10px] uppercase text-muted">Experience</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Service Area -->
+        <section class="mb-12">
+            <div class="grid-container">
+                <div class="relative rounded-3xl overflow-hidden shadow-soft aspect-[4/5]">
+                    <img class="w-full h-full object-cover" src="https://storage.googleapis.com/uxpilot-auth.appspot.com/gen_a8cf2961ef_882312cbd5a2fe2e.png" alt="aerial view of a clean suburban neighborhood with map pins, professional drone photography" />
+                    <div class="absolute inset-0 bg-gradient-to-t from-ink via-ink/60 to-transparent p-6 flex flex-col justify-end">
+                        <h2 class="text-2xl font-bold text-crisp">Service Near You</h2>
+                        <p class="text-sm text-soft mt-1">Serving [Primary City] and surrounding communities.</p>
+                        <a href="tel:5551234567" class="mt-4 bg-gold text-ink py-3 px-6 rounded-xl font-bold text-center">CHECK AVAILABILITY</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Form -->
+        <section id="contact" class="mb-12">
+            <div class="grid-container">
+                <div class="bg-elevated rounded-3xl p-6 border border-sharp">
+                    <h2 class="text-3xl font-bold text-crisp mb-2 text-center">Get a Quote</h2>
+                    <p class="text-sm text-muted mb-8 text-center">Fast response times for all requests.</p>
+                    <form class="space-y-4">
+                        <input type="text" placeholder="Name" class="w-full bg-ink border border-sharp rounded-xl p-4 text-crisp placeholder:text-muted">
+                        <input type="tel" placeholder="Phone" class="w-full bg-ink border border-sharp rounded-xl p-4 text-crisp placeholder:text-muted">
+                        <select class="w-full bg-ink border border-sharp rounded-xl p-4 text-crisp">
+                            <option>Service Needed</option>
+                            <option>Repair</option>
+                            <option>Installation</option>
+                        </select>
+                        <textarea placeholder="Description" rows="4" class="w-full bg-ink border border-sharp rounded-xl p-4 text-crisp placeholder:text-muted"></textarea>
+                        <button type="submit" class="w-full bg-gold text-ink py-4 rounded-xl font-bold">SUBMIT REQUEST</button>
+                    </form>
+                    <div class="mt-8 pt-8 border-t border-sharp text-center">
+                        <p class="text-sm text-muted mb-4">Prefer to talk?</p>
+                        <a href="tel:5551234567" class="inline-flex items-center gap-3 text-gold text-xl font-bold">
+                            <i class="fa-solid fa-phone"></i>
+                            (555) 123-4567
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Mobile Footer -->
+    <footer class="bg-surface border-t border-sharp pt-12 pb-24">
+        <div class="grid-container text-center">
+            <p class="text-xl font-bold text-crisp mb-4">Brooks Electrical</p>
+            <p class="text-xs text-muted mb-8">Licensed & Insured Electrical Contractor</p>
+            <div class="flex justify-center gap-6 mb-8">
+                <a href="#" class="text-muted text-xl"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#" class="text-muted text-xl"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" class="text-muted text-xl"><i class="fa-brands fa-google"></i></a>
+            </div>
+            <p class="text-[10px] text-muted">© 2026 Brooks Electrical Services. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Fixed Mobile CTA -->
+    <div class="fixed bottom-0 left-0 w-full p-4 bg-ink/80 backdrop-blur-md border-t border-sharp z-50 flex gap-3">
+        <a href="tel:5551234567" class="flex-1 bg-gold text-ink py-4 rounded-xl font-bold text-center flex items-center justify-center gap-2">
+            <i class="fa-solid fa-phone"></i>
+            CALL NOW
+        </a>
+        <a href="#contact" class="flex-1 bg-crisp text-ink py-4 rounded-xl font-bold text-center flex items-center justify-center gap-2">
+            <i class="fa-solid fa-calendar-check"></i>
+            BOOK QUOTE
+        </a>
+    </div>
+
+</body>
+</html>

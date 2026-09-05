@@ -13,11 +13,16 @@ Track the approved visual design source for this client. Keep raw design exports
 - Source location: `design-source/uxpilot/`
 - Raw export preserved unchanged: yes
 - Export SHA256: b611ff33ce9221cbe1e20f7e33b1dcb911fdb46e00a04a60d20eaa59ba02022c
+- Mobile export filename: design-source\uxpilot\BrooksElectrical - Mobile.html
+- Mobile import date: 2026-09-05
+- Mobile export SHA256: e46b35c976d6d68b3b35cbd8079e6f632fc26fa1c8d73ffb0746707789deb601
 
 ## Intended Visual Features To Preserve
 
 - Visual composition:
   Floating pill header over a dark full-page layout; left-copy/right-square-image hero; credential strip; asymmetric service bento; alternating image/text diagnostic rows; three-card proof grid; vertical process timeline; residential/commercial split; image-backed service-area band; reviews panel; about/quote card; lead form and sticky call card; multi-column footer.
+- Mobile visual composition:
+  Full-width fixed mobile header with compact call action; compact hero copy and square image; 2x2 trust strip; row-based service cards; elevated stacked diagnostic band; rounded quote form card; compact footer; fixed bottom call/request CTA.
 - Section order:
   Header, hero, trust bar, services, diagnostics, why choose, process, residential/commercial, service area, reviews, about, contact, footer.
 - Hero proportions:
@@ -106,6 +111,7 @@ Material UX Pilot deviations are allowed only when needed for:
 | About/person card | Marcus Brooks, Master Electrician portrait | FirstLine review note/testimonial placeholder with no named staff claim | No verified owner/staff/testimonial source yet | needs review |
 | Reviews | Google reviews placeholder and invented customer names | Job-readiness panel with practical service promises and a secondary Facebook CTA | Avoid invented review proof; keep public copy customer-facing until real testimonials are approved | needs review |
 | Imagery | UX Pilot generated electrical concept images | Retained generated concept images, documented as replacement recommended | No client-provided or permission-cleared authentic imagery available | needs review |
+| Mobile source | New UX Pilot mobile export uses placeholder Brooks facts, claim badges, stock/generated images, and placeholder phone | Mobile layout rhythm adopted while preserving Brock/Rochester copy, approved local image replacements, 603 phone number, and existing factual-accuracy constraints | User requested new mobile design while preserving current text/images | approved by user |
 
 ## Design Fidelity QA
 

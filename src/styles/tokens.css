@@ -25,7 +25,7 @@
 @media (max-width: 768px) {
   :root {
     --container: min(100% - 24px, 100%);
-    --header-height: 68px;
+    --header-height: 74px;
     --section-y: 36px;
   }
 }
