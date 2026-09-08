@@ -20,24 +20,19 @@ body.fl-nav-open {
   overflow: hidden;
 }
 
-@keyframes fl-reveal-up {
-  from {
-    opacity: 0;
-    transform: translate3d(0, 22px, 0) scale(0.985);
-    filter: blur(6px);
-  }
-
-  to {
-    opacity: 1;
-    transform: translate3d(0, 0, 0) scale(1);
-    filter: blur(0);
-  }
+.reveal-on-scroll {
+  opacity: 0;
+  transform: translateY(28px) scale(0.985);
+  transition:
+    opacity 520ms ease,
+    transform 620ms cubic-bezier(0.2, 0.8, 0.2, 1);
+  transition-delay: var(--reveal-delay, 0ms);
+  will-change: opacity, transform;
 }
 
-[data-reveal].is-visible {
-  animation: fl-reveal-up 620ms cubic-bezier(0.2, 0.8, 0.2, 1) both;
-  animation-delay: var(--reveal-delay, 0ms);
-  will-change: opacity, transform, filter;
+.reveal-on-scroll.is-visible {
+  opacity: 1;
+  transform: translateY(0) scale(1);
 }
 
 a {
@@ -1072,10 +1067,6 @@ address {
     gap: 20px;
   }
 
-  [data-reveal].is-visible {
-    animation-duration: 500ms;
-  }
-
   .hero .eyebrow {
     width: fit-content;
     padding: 4px 8px;
@@ -1496,6 +1487,12 @@ address {
 }
 
 @media (prefers-reduced-motion: reduce) {
+  .reveal-on-scroll {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+
   html {
     scroll-behavior: auto;
   }
