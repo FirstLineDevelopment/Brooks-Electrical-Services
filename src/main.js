@@ -1,5 +1,6 @@
 import firstline from "../firstline.config.js";
 import { renderFooterCredit } from "./components/footer-credit.js";
+import { bindAnalyticsEvents } from "./utils/analytics-events.js";
 import { bindAnchorOffset } from "./utils/anchor-offset.js";
 import { bindFormModes } from "./utils/form-mode.js";
 import { bindMotionReveal } from "./utils/motion-reveal.js";
@@ -24,6 +25,8 @@ bindMobileNav({
 bindFormModes({
   defaultMode: firstline.defaultFormMode || "demo"
 });
+
+bindAnalyticsEvents();
 
 bindMotionReveal();
 
