@@ -20,6 +20,26 @@ body.fl-nav-open {
   overflow: hidden;
 }
 
+@keyframes fl-reveal-up {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 22px, 0) scale(0.985);
+    filter: blur(6px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0) scale(1);
+    filter: blur(0);
+  }
+}
+
+[data-reveal].is-visible {
+  animation: fl-reveal-up 620ms cubic-bezier(0.2, 0.8, 0.2, 1) both;
+  animation-delay: var(--reveal-delay, 0ms);
+  will-change: opacity, transform, filter;
+}
+
 a {
   color: inherit;
 }
@@ -1052,6 +1072,10 @@ address {
     gap: 20px;
   }
 
+  [data-reveal].is-visible {
+    animation-duration: 500ms;
+  }
+
   .hero .eyebrow {
     width: fit-content;
     padding: 4px 8px;
@@ -1468,5 +1492,20 @@ address {
 
   .site-footer {
     padding-bottom: 76px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 1ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 1ms !important;
   }
 }

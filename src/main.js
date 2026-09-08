@@ -2,6 +2,7 @@ import firstline from "../firstline.config.js";
 import { renderFooterCredit } from "./components/footer-credit.js";
 import { bindAnchorOffset } from "./utils/anchor-offset.js";
 import { bindFormModes } from "./utils/form-mode.js";
+import { bindMotionReveal } from "./utils/motion-reveal.js";
 import { bindMobileNav } from "./utils/mobile-nav.js";
 
 document.querySelectorAll("[data-year]").forEach((target) => {
@@ -23,6 +24,8 @@ bindMobileNav({
 bindFormModes({
   defaultMode: firstline.defaultFormMode || "demo"
 });
+
+bindMotionReveal();
 
 renderFooterCredit({
   enabled: true,
