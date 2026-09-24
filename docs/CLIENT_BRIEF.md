@@ -4,7 +4,7 @@ FirstLine-System-Version: 2.3
 
 ## Client
 
-- Project folder: Brooks-Electrical-Services
+- Project folder: Brock-Electrical-Services
 - Name: Brock Electrical Services
 - Business type: Electrical Contractor
 - Primary language: English
@@ -216,5 +216,5 @@ FirstLine-System-Version: 2.3
 Document any approved exception to FirstLine global standards here.
 
 - No client-owned imagery is present yet; UX Pilot generated imagery is retained for local review as concept/demo imagery only.
-- The project folder and UX Pilot export use "Brooks" naming, but the supplied business references point to "Brock Electrical Services" in Rochester, NH.
+- The original UX Pilot export used "Brooks" naming, but the supplied business references point to "Brock Electrical Services" in Rochester, NH. The local project folder should use Brock naming.
 - Public directory status/licensing details require owner confirmation before launch.

@@ -1,6 +1,6 @@
 # FirstLine UX Pilot Implementation Prompt
 
-Project path: C:\Users\burgo\Projects\FirstLine-Clients\Brooks-Electrical-Services
+Project path: C:\Users\burgo\Projects\FirstLine-Clients\Brock-Electrical-Services
 UX Pilot export: design-source\uxpilot\BrooksElectrical - Home.html
 UX Pilot export SHA256: b611ff33ce9221cbe1e20f7e33b1dcb911fdb46e00a04a60d20eaa59ba02022c
 Import date: 2026-09-04T15:00:17Z

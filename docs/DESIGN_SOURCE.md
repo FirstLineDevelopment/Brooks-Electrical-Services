@@ -136,6 +136,6 @@ Compare the UX Pilot design/reference against the FirstLine implementation for l
 
 ## Unresolved Visual Questions
 
-- Confirm exact legal/trading entity, spelling, license/registration wording, and business status before launch. The project folder/export say Brooks, while the supplied references say Brock Electrical Services in Rochester, NH.
+- Confirm exact legal/trading entity, license/registration wording, and business status before launch. The original UX Pilot export says Brooks, while the supplied references say Brock Electrical Services in Rochester, NH.
 - Confirm whether UX Pilot generated concept imagery is acceptable for owner review only or should be replaced with client-provided assets immediately.
 - Confirm logo, license/registration wording, form destination, domain, analytics, and privacy requirements.
